@@ -6,165 +6,226 @@
     <title>Alan Lee - AI/Software Engineer</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            // Initialize EmailJS with your Public Key
+            emailjs.init("VE3YwlCWcVoR0AM44"); // Replace with your EmailJS Public Key
+        })();
+    </script>
 </head>
 <body>
     <!-- Side Navigation -->
     <nav class="side-nav" id="sideNav">
-        <div class="nav-item active">
-            <div class="nav-pill expanded">
-                <span class="nav-icon">🏠</span>
-                <span class="nav-label">Home</span>
-            </div>
-            <div class="nav-tooltip">Home</div>
-        </div>
+    <div class="nav-item active">
+    <div class="nav-pill expanded">
+    <span class="nav-icon">🏠</span>
+    <span class="nav-label">Home</span>
+    </div>
+    <div class="nav-tooltip">Home</div>
+    </div>
     
 
-        <div class="nav-item" >
-            <div class="nav-pill expanded">
-                <span class="nav-icon">💼</span>
-                <span class="nav-label">Experience</span>
-            </div>
-            <div class="nav-tooltip">Experience</div>
-        </div>
-        
-        <div class="nav-item">
-            <div class="nav-pill expanded">
-                <span class="nav-icon">✉️</span>
-                <span class="nav-label">Contact</span>
-            </div>
-            <div class="nav-tooltip">Contact</div>
-        </div>
+    <div class="nav-item" >
+    <div class="nav-pill expanded">
+    <span class="nav-icon">💼</span>
+    <span class="nav-label">Experience</span>
+    </div>
+    <div class="nav-tooltip">Experience</div>
+    </div>
+    
+    <div class="nav-item">
+    <div class="nav-pill expanded">
+    <span class="nav-icon">✉️</span>
+    <span class="nav-label">Contact</span>
+    </div>
+    <div class="nav-tooltip">Contact</div>
+    </div>
     </nav>
 
     <!-- Main Card -->
     <div class="main-card">
-        <section class="hero-section">
-            <!-- Profile Image -->
-            <div class="profile-container">
-                <div class="profile-image">
-                    <img src="logo.jpg" alt="AL">
-                    <div class="status-indicator" title="Available for opportunities"></div>
-                </div>
-            </div>
+    <section class="hero-section">
+    <!-- Profile Image -->
+    <div class="profile-container">
+    <div class="profile-image">
+    <img src="logo.jpg" alt="AL">
+    <div class="status-indicator" title="Available for opportunities"></div>
+    </div>
+    </div>
 
-            <!-- Hero Content -->
-            <div class="hero-content">
-                <h1 class="greeting">
-                    Hi, I'm Alan
-                    <span class="wave-emoji">👋</span>
-                </h1>
-                
-                <div class="title">
-                    AI<span class="slash">/</span>Software Engineer
-                </div>
+    <!-- Hero Content -->
+    <div class="hero-content">
+    <h1 class="greeting">
+    Hi, I'm Alan
+    <span class="wave-emoji">👋</span>
+    </h1>
+    
+    <div class="title">
+    AI<span class="slash">/</span>Software Engineer
+    </div>
 
-                <p class="bio">
-                    Building intelligent systems that scale. I craft end-to-end solutions—from React frontends to ML pipelines. Delivering AI features that actually ship to production
-                </p>
+    <p class="bio">
+    Building intelligent systems that scale. I craft end-to-end solutions—from React frontends to ML pipelines. Delivering AI features that actually ship to production
+    </p>
 
-                <div class="cta-group">
-                    <a href="#experience" class="btn btn-primary">
-                        <span>View My Work</span>
-                        <span>→</span>
-                    </a>
-                    <a href="#contact" class="btn btn-secondary">
-                        <span>Get in Touch</span>
-                    </a>
-                </div>
+    <div class="cta-group">
+    <a href="#experience" class="btn btn-primary">
+    <span>View My Work</span>
+    <span>→</span>
+    </a>
+    <a href="#contact" class="btn btn-secondary">
+    <span>Get in Touch</span>
+    </a>
+    </div>
 
-                <div class="social-links">
-                    <a href="#" class="social-link github" title="GitHub">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="#" class="social-link linkedin" title="LinkedIn">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="#" class="social-link instagram" title="Ig">
-                        <i class="fab fa-instagram"></i>
-                    </a>
+    <div class="social-links">
+    <a href="https://github.com/alanlee394" class="social-link github" title="GitHub">
+    <i class="fab fa-github"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/alan-lee-b8a009233/" class="social-link linkedin" title="LinkedIn">
+    <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://www.instagram.com/alanleewj/" class="social-link instagram" title="Ig">
+    <i class="fab fa-instagram"></i>
+    </a>
+    
+    </div>
+
+    <div class="tech-stack">
+    <div class="tech-label">Currently Working With</div>
+    <div class="tech-items">
+    <span class="tech-tag">Python</span>
+    <span class="tech-tag">PyTorch</span>
+    <span class="tech-tag">LangChain</span>
+    <span class="tech-tag">React</span>
+    <span class="tech-tag">TypeScript</span>
+    <span class="tech-tag">AWS</span>
+    </div>
+    </div>
+    </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience-section" id="experience">
+        <div class="section-header">
+            <h2 class="section-title">Experience</h2>
+            <p class="section-subtitle">My professional journey</p>
+        </div>
         
-                </div>
-
-                <div class="tech-stack">
-                    <div class="tech-label">Currently Working With</div>
-                    <div class="tech-items">
-                        <span class="tech-tag">Python</span>
-                        <span class="tech-tag">PyTorch</span>
-                        <span class="tech-tag">LangChain</span>
-                        <span class="tech-tag">React</span>
-                        <span class="tech-tag">TypeScript</span>
-                        <span class="tech-tag">AWS</span>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <div class="company-info">
+                                <h3 class="company-name">Iota Medtech</h3>
+                                <p class="role">AI/Software Engineering Intern</p>
+                            </div>
+                            <div class="duration">
+                                <span class="duration-badge">8 months</span>
+                                <p class="date-range">Jan 2024 - Aug 2024</p>
+                            </div>
+                        </div>
+                        
+                        <div class="experience-body">
+                            <p class="experience-description">
+                                Successfully completed a 5-month internship with a 3-month extension, contributing to critical AI and software development projects.
+                            </p>
+                            
+                            <div class="achievements">
+                                <h4>Key Achievements:</h4>
+                                <ul>
+                                    <li>Part of the team that successfully obtained regulatory authority approval for AI model/product deployment</li>
+                                    <li>Led a team of 4 to train a separate AI model that achieved prediction accuracy upwards of 90%</li>
+                                    <li>Developed robust TypeScript-based software components for production applications</li>
+                                    <li>Deployed AI products on AWS infrastructure using Docker containerization</li>
+                                    <li>Collaborated with cross-functional teams to deliver features ahead of schedule</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="tech-used">
+                                <span class="tech-badge">Python</span>
+                                <span class="tech-badge">TypeScript</span>
+                                <span class="tech-badge">TensorFlow</span>
+                                <span class="tech-badge">Docker</span>
+                                <span class="tech-badge">Git</span>
+                                <span class="tech-badge">AWS</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="section-header">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Let's build something amazing together</p>
+        </div>
+        
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email Me</h3>
+                    <p>alanleeweijun8@gmail.com</p>
+                    <a href="mailto:alanleeweijun8@gmail.com" class="contact-link">Send Message →</a>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <h3>LinkedIn</h3>
+                    <p>Connect professionally</p>
+                    <a href="https://www.linkedin.com/in/alan-lee-b8a009233/" class="contact-link">View Profile →</a>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <h3>GitHub</h3>
+                    <p>Check out my code</p>
+                    <a href="https://github.com/alanlee394" class="contact-link">View Projects →</a>
+                </div>
+            </div>
+            
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                
+                <div class="form-group">
+                    <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                </div>
+                
+                <div class="form-group">
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-primary btn-submit">
+                    <span>Send Message</span>
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </section>
     </div>
 
-    <script>
-        // Auto-collapse navigation after 3 seconds
-        setTimeout(() => {
-            const navPills = document.querySelectorAll('.nav-pill');
-            navPills.forEach(pill => {
-                pill.classList.remove('expanded');
-                pill.classList.add('collapsed');
-            });
-        }, 3000);
+    
 
-        // Handle navigation clicks
-        document.querySelectorAll('.nav-item').forEach(item => {
-            item.addEventListener('click', function() {
-                // Remove active from all items
-                document.querySelectorAll('.nav-item').forEach(navItem => {
-                    navItem.classList.remove('active');
-                });
-                // Add active to clicked item
-                this.classList.add('active');
-            });
-        });
-
-        // Smooth scroll for CTA buttons
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth'
-                    });
-                }
-            });
-        });
-
-        // Add hover effect to nav items
-        document.querySelectorAll('.nav-item').forEach(item => {
-            item.addEventListener('mouseenter', function() {
-                if (this.querySelector('.nav-pill').classList.contains('collapsed')) {
-                    this.style.transform = 'scale(1.05)';
-                }
-            });
-            
-            item.addEventListener('mouseleave', function() {
-                this.style.transform = 'scale(1)';
-            });
-        });
-
-        // Optional: Add typing effect to the bio
-        const bioText = document.querySelector('.bio');
-        const originalText = bioText.textContent;
-        let charIndex = 0;
-        
-        // Uncomment below to enable typing effect
-        
-        bioText.textContent = '';
-        function typeWriter() {
-            if (charIndex < originalText.length) {
-                bioText.textContent += originalText.charAt(charIndex);
-                charIndex++;
-                setTimeout(typeWriter, 20);
-            }
-        }
-        setTimeout(typeWriter, 1500);
-        
-    </script>
+    <script src="index.js"></script>
 </body>
 </html>
